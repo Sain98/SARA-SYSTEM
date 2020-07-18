@@ -14,5 +14,6 @@ It is a bit hardcoded to a private discord server, see `message_list.py`
 ```
 CUCK_CHAT_ID = 445655031207690282
 BOT_SPAM_ID = 733739729727651931
+QUOTES_CHANNEL_ID = 575000109272662016
 ```
 change the numbers to a channel ID that works for your usage
