@@ -12,7 +12,7 @@ class SARA_SYSTEM(discord.Client):
 
         self.quotes = []
         self.raw_quotes = None
-        self.quotes_channel_id = 575000109272662016
+        self.quotes_channel_id = message_list.QUOTES_CHANNEL_ID
         self.quotes_file = "quotes.txt"
 
         self.spam_id = message_list.BOT_SPAM_ID
