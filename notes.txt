@@ -1,0 +1,9 @@
+https://discord.com/api/oauth2/authorize?client_id=344648711806386178&permissions=523328&scope=bot
+
+CLIENT ID: 344648711806386178
+CLIENT SECRET: TxFwC3GR9UmW34UNOv4DWH2bd4abW8fR
+
+
+invite:
+https://discord.com/api/oauth2/authorize?client_id=344648711806386178&permissions=231210054&scope=bot
+
