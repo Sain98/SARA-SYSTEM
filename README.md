@@ -9,3 +9,10 @@ DISCORD_TOKEN={YOUR_TOKEN}
 DISCORD_SECRET={YOUR_SECRET}
 DISCORD_ID={BOT_ID}
 ```
+
+It is a bit hardcoded to a private discord server, see `message_list.py`
+```
+CUCK_CHAT_ID = 445655031207690282
+BOT_SPAM_ID = 733739729727651931
+```
+change the numbers to a channel ID that works for your usage
