@@ -84,6 +84,7 @@ class SARA_SYSTEM(discord.Client):
                     reply = command_handler.handle_command(cmd, author=message.author)
                     if isinstance(reply, str):
                         await message.channel.send(reply)
+                        return
 
                     cmd_s = cmd.split()
 
@@ -122,7 +123,7 @@ class SARA_SYSTEM(discord.Client):
                             pic = discord.File(pic_location)
                             await message.channel.send(file=pic)
 
-                    elif cmd.lower() == "admin" and (message.author.id != message_list.MY_ID or
+                    elif cmd.lower() == "admin" and (message.author.id != message_list.MY_ID and
                                                      message.author.id != message.guild.owner.id):
                         await message.channel.send(message.author.mention,
                                                    file=discord.File("replys\\supervisor.gif"))
